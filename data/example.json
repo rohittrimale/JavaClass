@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Example Corner Barbershop",
+    "category": "barber",
+    "city": "Los Angeles",
+    "state": "CA",
+    "address": "123 Example St, Los Angeles, CA 90000",
+    "phone": "(555) 010-0000",
+    "email": "",
+    "owner": "",
+    "hook": "your great reviews for fades",
+    "rating": "4.6 stars",
+    "hours": {"Mon–Fri": "9am – 7pm", "Sat": "9am – 5pm", "Sun": "Closed"},
+    "services": [
+      {"name": "Classic cut", "detail": "Scissor or clipper, finished with a hot towel."},
+      {"name": "Skin fade", "detail": "Clean, sharp fades, any style."},
+      {"name": "Beard trim", "detail": "Shape-up and line-up."},
+      {"name": "Kids' cut", "detail": "Patient barbers for the little ones."}
+    ],
+    "source": "fictional example record"
+  }
+]
