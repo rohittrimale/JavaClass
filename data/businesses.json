@@ -1,1 +1,687 @@
-[]
+[
+  {
+    "name": "Taquería Luna",
+    "category": "restaurant",
+    "city": "Houston",
+    "state": "TX",
+    "address": "7703 Lyons Ave, Houston, TX",
+    "phone": "(832) 310-5000",
+    "headline": "Fresh tacos, made by hand",
+    "tagline": "Food truck on Lyons Ave serving tacos, huaraches and tortas on handmade corn tortillas.",
+    "hook": "the reviews for your handmade tortillas",
+    "services": [
+      "Chicharrón tacos",
+      "Al pastor tacos",
+      "Huaraches",
+      "Tortas",
+      "Pupusas",
+      "Agua de melón"
+    ],
+    "source": "https://www.restaurantji.com/tx/houston/taquer-a-luna-/comments/",
+    "note": "Food truck. Only a Facebook page (m.facebook.com/TaqueriaLuna63). Reviews say bring cash."
+  },
+  {
+    "name": "Gerardo's Bakery",
+    "category": "bakery",
+    "city": "Chicago",
+    "state": "IL",
+    "address": "10125 S Ewing Ave, Chicago, IL",
+    "phone": "(773) 768-6099",
+    "headline": "Pan dulce, fresh every morning",
+    "tagline": "Neighborhood Mexican bakery on the East Side of Chicago.",
+    "hook": "how much the neighborhood loves your conchas",
+    "services": [
+      "Conchas",
+      "Pan dulce",
+      "Cochinitos",
+      "Rosca de Reyes (seasonal)"
+    ],
+    "source": "https://www.restaurantji.com/il/chicago/gerardos-bakery-/comments/"
+  },
+  {
+    "name": "Pepe's Taco Villa",
+    "category": "restaurant",
+    "city": "Phoenix",
+    "state": "AZ",
+    "address": "2108 W Camelback Rd, Phoenix, AZ 85015",
+    "phone": "(602) 242-0379",
+    "rating": "4.7 / 5 on Tripadvisor (36 reviews)",
+    "hook": "the 4.7-star reviews for your Monterey taco",
+    "hours": {
+      "Mon–Thu": "10am – 8pm",
+      "Fri–Sat": "10am – 9pm",
+      "Sun": "9am – 6pm"
+    },
+    "services": [
+      "Monterey taco (house specialty)",
+      "Carne asada chimichanga",
+      "Shrimp tacos",
+      "Enchiladas Suizas",
+      "Huevos rancheros",
+      "Menudo (weekends)"
+    ],
+    "source": "https://www.tripadvisor.in/Restaurant_Review-g31310-d472919-Reviews-Pepe_s_Taco_Villa-Phoenix_Arizona.html"
+  },
+  {
+    "name": "Milly's Restaurant",
+    "category": "restaurant",
+    "city": "Miami",
+    "state": "FL",
+    "address": "2742 SW 8th St, Miami, FL 33135",
+    "phone": "(305) 541-4122",
+    "rating": "4.4 / 5 on Tripadvisor (44 reviews)",
+    "headline": "Dominican home cooking on Calle Ocho",
+    "hook": "the great reviews for your mofongo",
+    "hours": {
+      "Sun–Thu": "8am – 10pm",
+      "Fri–Sat": "8am – midnight"
+    },
+    "services": [
+      "Mofongo",
+      "Sancocho",
+      "Mangú breakfast",
+      "Chicharrón de pollo",
+      "Cod fritters",
+      "Sweet potato cheesecake"
+    ],
+    "source": "https://www.tripadvisor.co.uk/Restaurant_Review-g34438-d938124-Reviews-Milly_s_Restaurant-Miami_Florida.html"
+  },
+  {
+    "name": "Chase's Diner",
+    "category": "restaurant",
+    "city": "Chandler",
+    "state": "AZ",
+    "address": "2040 N Alma School Rd, Chandler, AZ 85224",
+    "phone": "(480) 855-3663",
+    "rating": "4.2 / 5 on Tripadvisor (108 reviews)",
+    "headline": "Real diner breakfast, all day",
+    "hook": "your 108 Tripadvisor reviews",
+    "hours": {
+      "Tue–Sat": "6am – 9pm",
+      "Sun–Mon": "6am – 2pm"
+    },
+    "services": [
+      "Chicken-fried steak",
+      "Country skillet",
+      "Onion rings",
+      "Chili fries",
+      "Pulled pork sandwich",
+      "Friday fish fry"
+    ],
+    "source": "https://www.tripadvisor.com/Restaurant_Review-g31190-d450260-Reviews-Chase_s_Diner-Chandler_Arizona.html"
+  },
+  {
+    "name": "Taqueria Del Sol",
+    "category": "restaurant",
+    "city": "Houston",
+    "state": "TX",
+    "address": "8114 Park Place Blvd, Houston, TX 77017",
+    "phone": "(713) 644-0535",
+    "rating": "4.5 / 5 on Tripadvisor (56 reviews)",
+    "headline": "Tacos from 6am till late",
+    "hook": "your 4.5-star reviews",
+    "hours": {
+      "Mon–Thu": "6am – midnight",
+      "Fri–Sun": "6am – 3am"
+    },
+    "services": [
+      "Tacos al pastor",
+      "Fajita gorditas",
+      "Menudo",
+      "Caldo de res",
+      "Carne asada plate",
+      "Pan dulce"
+    ],
+    "source": "https://www.tripadvisor.com/Restaurant_Review-g56003-d484570-Reviews-Taqueria_Del_Sol-Houston_Texas.html"
+  },
+  {
+    "name": "Villa Arcos",
+    "category": "restaurant",
+    "city": "Houston",
+    "state": "TX",
+    "address": "3009 Navigation Blvd, Houston, TX 77003",
+    "phone": "(832) 426-4766",
+    "email": "ccn.villaarcos@gmail.com",
+    "rating": "4.8 / 5 on Tripadvisor (18 reviews)",
+    "headline": "East End breakfast tacos",
+    "hook": "your 4.8-star reviews for breakfast tacos",
+    "hours": {
+      "Mon–Fri": "6am – 2pm",
+      "Sat": "7am – 2pm",
+      "Sun": "8am – 2pm"
+    },
+    "services": [
+      "Bacon Super breakfast taco",
+      "Chorizo & egg taco",
+      "Chicharrón & egg taco",
+      "Carne guisada",
+      "Tamales",
+      "Cheese enchiladas"
+    ],
+    "source": "https://www.tripadvisor.com/Restaurant_Review-g56003-d493677-Reviews-Villa_Arcos-Houston_Texas.html"
+  },
+  {
+    "name": "La Parrilla",
+    "category": "restaurant",
+    "city": "Los Angeles",
+    "state": "CA",
+    "address": "2126 E Cesar E Chavez Ave, Los Angeles, CA 90033",
+    "phone": "(323) 262-3434",
+    "rating": "3.8 / 5 on Tripadvisor",
+    "headline": "Boyle Heights Mexican kitchen",
+    "hook": "your tableside guacamole",
+    "hours": {
+      "Daily": "8am – 10pm"
+    },
+    "services": [
+      "Tableside guacamole",
+      "Queso fundido",
+      "Huarache Tizoc",
+      "Tacos al carbón",
+      "Chilaquiles",
+      "Handmade tortillas"
+    ],
+    "source": "https://www.tripadvisor.co.uk/Restaurant_Review-g32655-d364709-Reviews-La_Parrilla-Los_Angeles_California.html"
+  },
+  {
+    "name": "El Sipote Pupuseria Restaurant",
+    "category": "restaurant",
+    "city": "Compton",
+    "state": "CA",
+    "address": "2530 E Alondra Blvd, Compton, CA 90221",
+    "phone": "(323) 710-2467",
+    "headline": "Salvadoran pupusas, made to order",
+    "tagline": "Family Salvadoran kitchen in Compton with a big dining room and on-site parking.",
+    "hook": "your pupusas and sopa de gallina",
+    "services": [
+      {
+        "name": "Pupusas",
+        "detail": "Many fillings, from $2"
+      },
+      {
+        "name": "Sopa de gallina"
+      },
+      {
+        "name": "Pollo encebollado"
+      },
+      {
+        "name": "Casamiento"
+      },
+      {
+        "name": "Tamal de pollo"
+      },
+      {
+        "name": "Mojarra frita"
+      }
+    ],
+    "source": "https://places.singleplatform.com/el-sipote-pupuseria-restaurant/menu ; https://www.atly.com/location/ElSipotePupuseria"
+  },
+  {
+    "name": "Loyola's Family Restaurant",
+    "category": "restaurant",
+    "city": "Albuquerque",
+    "state": "NM",
+    "address": "4500 Central Ave SE, Albuquerque, NM 87108",
+    "phone": "(505) 268-6478",
+    "rating": "4.4 / 5 on Tripadvisor (79 reviews)",
+    "headline": "New Mexican breakfast on Route 66",
+    "hook": "your 4.4-star reviews for the green chile",
+    "hours": {
+      "Tue–Sat": "7am – 1:30pm",
+      "Sun–Mon": "Closed"
+    },
+    "services": [
+      "Super Green breakfast burrito",
+      "Mexican omelette",
+      "Green chile plates",
+      "Sopaipillas",
+      "Frito pie"
+    ],
+    "source": "https://www.tripadvisor.com/Restaurant_Review-g60933-d387622-Reviews-Loyola_s_Family_Restaurant-Albuquerque_New_Mexico.html"
+  },
+  {
+    "name": "Ben Michael's Cafe",
+    "category": "restaurant",
+    "city": "Albuquerque",
+    "state": "NM",
+    "address": "2404 Pueblo Bonito Ct NW, Albuquerque, NM 87104",
+    "phone": "(505) 224-2817",
+    "rating": "4.4 / 5 on Tripadvisor (82 reviews)",
+    "headline": "Hidden gem near Old Town",
+    "hook": "your 4.4-star reviews",
+    "hours": {
+      "Tue–Sat": "11:30am – 2:30pm, 5:30pm – 8pm",
+      "Sun–Mon": "Closed"
+    },
+    "services": [
+      "Pork enchiladas",
+      "Veggie enchiladas",
+      "Rib eye",
+      "Rosemary potatoes",
+      "Key lime pie",
+      "Margaritas"
+    ],
+    "source": "https://www.tripadvisor.com/Restaurant_Review-g60933-d387201-Reviews-Ben_Michael_s_Cafe-Albuquerque_New_Mexico.html"
+  },
+  {
+    "name": "Tacos Apson",
+    "category": "restaurant",
+    "city": "Tucson",
+    "state": "AZ",
+    "address": "3501 S 12th Ave, Tucson, AZ 85713",
+    "phone": "(520) 670-1248",
+    "rating": "4.5 / 5 on Tripadvisor (36 reviews)",
+    "headline": "Mesquite-grilled carne asada on South 12th",
+    "hook": "that you have been grilling carne asada over mesquite on South 12th for 25 years",
+    "since": "2001",
+    "hours": {
+      "Mon–Thu": "10am – 10pm",
+      "Fri–Sat": "10am – midnight",
+      "Sun": "Closed"
+    },
+    "services": [
+      "Carne asada plate",
+      "Carne asada caramelo",
+      "Birria tacos",
+      "Lengua tacos",
+      "Cabeza tacos"
+    ],
+    "source": "https://www.tripadvisor.com/Restaurant_Review-g60950-d863734-Reviews-Tacos_Apson-Tucson_Arizona.html"
+  },
+  {
+    "name": "Hello Deli",
+    "category": "cafe",
+    "city": "Albuquerque",
+    "state": "NM",
+    "address": "7600 Jefferson St NE, Albuquerque, NM 87109",
+    "phone": "(505) 797-3354",
+    "rating": "4.2 / 5 on Tripadvisor (87 reviews)",
+    "headline": "Breakfast and lunch in Journal Center",
+    "tagline": "Neighborhood deli serving big breakfasts and lunch from 5:30 in the morning.",
+    "hook": "your 87 Tripadvisor reviews",
+    "hours": {
+      "Mon–Fri": "5:30am – 2:30pm",
+      "Sat–Sun": "8am – 2pm"
+    },
+    "services": [
+      "Big breakfast burrito",
+      "Biscuits & gravy",
+      "Sweet Dream waffle",
+      "Build-your-own skillet",
+      "Heart-healthy skillet"
+    ],
+    "source": "https://www.tripadvisor.com/Restaurant_Review-g60933-d387093-Reviews-Hello_Deli-Albuquerque_New_Mexico.html"
+  },
+  {
+    "name": "Fred's Soul Food Restaurant",
+    "category": "restaurant",
+    "city": "Jackson",
+    "state": "MS",
+    "address": "930 Palmyra St, Jackson, MS 39203",
+    "phone": "(601) 961-0974",
+    "headline": "Soul food breakfast, the way it should be",
+    "tagline": "Hometown soul food kitchen in Jackson serving big Southern breakfasts.",
+    "hook": "your listing on Visit Jackson",
+    "services": [
+      "Full Southern breakfast",
+      "Cheese grits",
+      "Salmon croquettes",
+      "Fried bologna sandwich",
+      "Pancakes",
+      "Biscuits"
+    ],
+    "source": "https://visitjackson.com/directory/freds-soul-food-restaurant",
+    "note": "Only Yelp and Facebook online."
+  },
+  {
+    "name": "Bully's Restaurant",
+    "category": "restaurant",
+    "city": "Jackson",
+    "state": "MS",
+    "address": "3118 Livingston Rd, Jackson, MS 39213",
+    "phone": "(601) 362-0484",
+    "headline": "James Beard–honored soul food",
+    "tagline": "Family-run meat-and-three in Jackson, recognized with a James Beard America's Classics award.",
+    "hook": "your James Beard award",
+    "services": [
+      "Smothered liver & onions",
+      "Turkey necks",
+      "Crispy catfish",
+      "Pork chops",
+      "Homemade cobbler",
+      "Pies & cakes"
+    ],
+    "source": "https://visitjackson.com/directory/bullys-restaurant",
+    "note": "Only Facebook and Instagram online."
+  },
+  {
+    "name": "Highland Donuts",
+    "category": "bakery",
+    "city": "Bakersfield",
+    "state": "CA",
+    "address": "5600 Auburn St #A, Bakersfield, CA 93306",
+    "phone": "(661) 864-7598",
+    "rating": "4.2 stars",
+    "headline": "Fresh donuts from 5am",
+    "tagline": "Neighborhood donut shop in Bakersfield with donuts, croissants and breakfast sandwiches.",
+    "hook": "your maple bars",
+    "hours": {
+      "Mon–Fri": "5am – 8pm",
+      "Sat": "5am – 4pm",
+      "Sun": "6am – 2pm"
+    },
+    "services": [
+      "Glazed & cake donuts",
+      "Maple and chocolate bars",
+      "Ham, cheese & jalapeño croissant",
+      "Breakfast bagels",
+      "Sandwiches",
+      "Smoothies & shakes"
+    ],
+    "source": "https://www.thedonutwhole.com/highland-donuts/"
+  },
+  {
+    "name": "Taqueria Los Comales",
+    "category": "restaurant",
+    "city": "Oklahoma City",
+    "state": "OK",
+    "address": "1504 S Agnew Ave, Oklahoma City, OK 73108",
+    "phone": "(405) 272-4739",
+    "headline": "Homemade chorizo, carnitas and tamales",
+    "tagline": "Family taqueria in Oklahoma City, open every day from 8am.",
+    "hook": "your homemade chorizo breakfast tacos",
+    "hours": {
+      "Daily": "8am – 9pm"
+    },
+    "services": [
+      "Breakfast tacos with homemade chorizo",
+      "Carnitas",
+      "Green or red chile pork",
+      "Barbacoa",
+      "Tamales",
+      "Enchiladas"
+    ],
+    "source": "https://www.travelok.com/listings/view.profile/id.25087",
+    "note": "Only a Facebook page online."
+  },
+  {
+    "name": "La Panaderia El Buen Gusto",
+    "category": "bakery",
+    "city": "El Mirage",
+    "state": "AZ",
+    "address": "12329 NW Grand Ave, El Mirage, AZ",
+    "phone": "(623) 933-3666",
+    "headline": "Pan dulce and tamales, fresh daily",
+    "tagline": "Mexican bakery on Grand Ave with pan dulce, cakes and homemade tamales.",
+    "hook": "your tamales and tres leches",
+    "services": [
+      "Pan dulce",
+      "Tres leches cake",
+      "Pork tamales in green chile",
+      "Cheese & rajas tamales",
+      "Fresh bread"
+    ],
+    "source": "https://www.restaurantji.com/az/el-mirage/la-panaderia-/comments/",
+    "note": "Only an online-ordering page, no website."
+  },
+  {
+    "name": "Maxine's Old Country Kitchen",
+    "category": "restaurant",
+    "city": "Jackson",
+    "state": "MS",
+    "address": "1254 Macon St, Jackson, MS 39209",
+    "phone": "(601) 354-9500",
+    "headline": "Daily plate lunch, Southern style",
+    "tagline": "Old-school country kitchen in Jackson serving a home-cooked plate lunch every day.",
+    "hook": "your daily plate lunch",
+    "services": [
+      "Fried chicken",
+      "Collard greens",
+      "Mac and cheese",
+      "Black-eyed peas",
+      "Cornbread",
+      "Peach cobbler"
+    ],
+    "source": "https://www.visitjackson.com/directory/maxines-old-country-kitchen/",
+    "note": "Website button only points to Tripadvisor."
+  },
+  {
+    "name": "Mama's Eats-N-Sweets",
+    "category": "restaurant",
+    "city": "Jackson",
+    "state": "MS",
+    "address": "2017 Boling St, Jackson, MS 39209",
+    "phone": "(601) 713-0550",
+    "headline": "Soul food plates and homemade cakes",
+    "tagline": "Black-owned Jackson kitchen for smothered pork chops, sides and homemade cakes.",
+    "hook": "your smothered pork chop plate",
+    "services": [
+      "Smothered pork chop plate",
+      "Fried chicken",
+      "Greens",
+      "Candied yams",
+      "Barbecue",
+      "Homemade cakes"
+    ],
+    "source": "https://www.visitjackson.com/directory/mamas-eats-n-sweets",
+    "note": "Only Yelp and Facebook (facebook.com/mamaseats)."
+  },
+  {
+    "name": "Mom's Dream Kitchen",
+    "category": "restaurant",
+    "city": "Jackson",
+    "state": "MS",
+    "address": "1439 University Blvd, Jackson, MS 39204",
+    "phone": "(601) 353-3845",
+    "headline": "Soul food, made from scratch",
+    "tagline": "Black-owned soul food kitchen near JSU. Vegetables cooked without meat or drippings.",
+    "hook": "that your vegetables are cooked without meat",
+    "services": [
+      "Daily soul food plates",
+      "Meat-free vegetables",
+      "Southern sides",
+      "Takeout"
+    ],
+    "source": "https://www.visitjackson.com/directory/moms-dream-kitchen/",
+    "note": "Only a Facebook page."
+  },
+  {
+    "name": "Eddie's Soul Food",
+    "category": "restaurant",
+    "city": "Jackson",
+    "state": "MS",
+    "address": "2853 Bailey Ave, Jackson, MS 39206",
+    "phone": "(769) 572-4349",
+    "headline": "Back open and cooking",
+    "tagline": "Jackson soul food spot, reopened with fried catfish, pan trout and house-made desserts.",
+    "hook": "that you've reopened with a new menu",
+    "services": [
+      "Fried catfish",
+      "Pan trout",
+      "Hamburgers & cheeseburgers",
+      "Chef salads",
+      "House-made desserts"
+    ],
+    "source": "https://www.visitjackson.com/directory/eddies-soul-food",
+    "note": "Only Facebook/Instagram (downtownsnackshop)."
+  },
+  {
+    "name": "Tony's Fish House",
+    "category": "restaurant",
+    "city": "Pearl",
+    "state": "MS",
+    "address": "2735 Old Brandon Rd, Pearl, MS 39208",
+    "phone": "(601) 939-5995",
+    "rating": "4.4 on Google (749 reviews)",
+    "headline": "Fried fish the way Pearl likes it",
+    "hook": "your 749 Google reviews",
+    "hours": {
+      "Mon–Fri": "10:30am – 8pm",
+      "Sat": "12pm – 8pm",
+      "Sun": "Closed"
+    },
+    "services": [
+      "Trout dinner",
+      "Catfish strips",
+      "Pan trout plate",
+      "Fried fish & hush puppies",
+      "Chicken philly fries",
+      "Wings"
+    ],
+    "source": "https://wanderlog.com/place/details/5233078/tonys-fish-house",
+    "note": "Has a DoorDash order.online page only."
+  },
+  {
+    "name": "Ms. D's Southern Cuisine",
+    "category": "restaurant",
+    "city": "Jackson",
+    "state": "MS",
+    "address": "503 Gallatin St, Jackson, MS 39203",
+    "phone": "(662) 607-5975",
+    "headline": "Breakfast and plate lunch, Southern style",
+    "tagline": "Affordable Southern breakfast and plate lunches in West Jackson.",
+    "price": "$",
+    "hook": "your plate lunches",
+    "services": [
+      "Turkey necks",
+      "Baked or fried chicken",
+      "Pork chops",
+      "Red beans & rice",
+      "Field peas & cabbage",
+      "Cornbread"
+    ],
+    "source": "https://www.visitjackson.com/directory/ms-ds-southern-cuisine/",
+    "note": "Website link is a 2013 blog post; also Facebook."
+  },
+  {
+    "name": "Cancun Mexican Restaurant",
+    "category": "restaurant",
+    "city": "Corpus Christi",
+    "state": "TX",
+    "address": "6314 Yorktown Blvd, Corpus Christi, TX 78414",
+    "phone": "(361) 986-8622",
+    "rating": "3.7 / 5 on Tripadvisor (20 reviews)",
+    "headline": "Mexican breakfast, lunch and dinner from 6am",
+    "hook": "your beef fajitas and menudo",
+    "hours": {
+      "Daily": "6am – 10pm"
+    },
+    "services": [
+      "Beef fajitas",
+      "Menudo",
+      "Green enchiladas",
+      "Fish tacos",
+      "Carne asada tacos",
+      "Horchata"
+    ],
+    "source": "https://www.tripadvisor.co.nz/Restaurant_Review-g60927-d4939693-Reviews-Cancun_Mexican_Restaurant-Corpus_Christi_Texas.html"
+  },
+  {
+    "name": "Dixon's Diner Fish House",
+    "category": "restaurant",
+    "city": "Jackson",
+    "state": "MS",
+    "address": "1553 W Northside Dr, Jackson, MS 39213",
+    "phone": "(601) 983-7234",
+    "price": "$",
+    "headline": "Catfish plates and Southern sides",
+    "tagline": "Cash-only Jackson fish house serving catfish plates, ribs and pecan pie. Call ahead for hours.",
+    "hook": "your catfish plates",
+    "services": [
+      "Catfish plate with two sides",
+      "Chitterlings",
+      "Pork chop sandwich",
+      "Ribs",
+      "Fried pickles",
+      "Pecan pie"
+    ],
+    "source": "https://www.visitjackson.com/directory/dixons-diner-fish-house/",
+    "note": "Facebook only. Cash only. Phone may be (601) 981-9450 (older number) or (601) 983-7234 (newer); confirm."
+  },
+  {
+    "name": "Eddie & Ruby's Snack Bar",
+    "category": "restaurant",
+    "city": "Jackson",
+    "state": "MS",
+    "address": "1268 Valley St, Jackson, MS 39203",
+    "phone": "(601) 969-2723",
+    "headline": "Fried fish with a family-secret batter",
+    "tagline": "Black-owned Jackson snack bar frying catfish and pan trout in a family-recipe batter.",
+    "hook": "your family-secret fish batter",
+    "services": [
+      "Fried catfish",
+      "Pan trout",
+      "Soul food plates",
+      "Takeout"
+    ],
+    "source": "https://www.visitjackson.com/directory/eddie-rubys-snack-bar",
+    "note": "Facebook only."
+  },
+  {
+    "name": "Sugar's Place",
+    "category": "restaurant",
+    "city": "Jackson",
+    "state": "MS",
+    "address": "168 W Griffith St, Jackson, MS 39201",
+    "phone": "(601) 352-2364",
+    "headline": "Downtown Jackson soul food and catering",
+    "tagline": "Soul food for breakfast and lunch downtown, plus Sugar's Catering.",
+    "hook": "your Loaded Mama Burger",
+    "services": [
+      "Loaded Mama Burger",
+      "Southern breakfast",
+      "Soul food plates",
+      "Sugar's Kool-Aid",
+      "Catering"
+    ],
+    "source": "https://www.visitjackson.com/directory/sugars-place",
+    "note": "Facebook only. Hours on listings conflict; confirm."
+  },
+  {
+    "name": "Valley Street Fish House",
+    "category": "restaurant",
+    "city": "Jackson",
+    "state": "MS",
+    "address": "1234 Valley St, Jackson, MS 39203",
+    "phone": "(601) 354-0939",
+    "headline": "Fried fish, late into the night",
+    "tagline": "Jackson fish house open for lunch, dinner and after 9pm, Tuesday through Saturday.",
+    "hook": "that you're open late for fried fish",
+    "hours": {
+      "Tue–Sat": "Lunch, dinner & late night",
+      "Sun–Mon": "Closed"
+    },
+    "services": [
+      "Fried catfish",
+      "Fried fish plates",
+      "Late-night takeout"
+    ],
+    "source": "https://www.visitjackson.com/directory/valley-street-fish-house",
+    "note": "Website link points to Yelp; also Facebook."
+  },
+  {
+    "name": "1693 Red Zone Grill",
+    "category": "restaurant",
+    "city": "Jackson",
+    "state": "MS",
+    "address": "1693 Beasley Rd, Jackson, MS 39213",
+    "phone": "(769) 524-6803",
+    "headline": "Catfish, shrimp and bourbon wings",
+    "tagline": "Black-owned grill in North Jackson serving catfish specials, shrimp plates and wings.",
+    "hook": "your bourbon wings",
+    "hours": {
+      "Mon–Wed": "11am – 9:30pm",
+      "Thu–Fri": "11am – 10pm",
+      "Sat": "3pm – 10pm"
+    },
+    "services": [
+      "Catfish special",
+      "Grilled shrimp plate",
+      "Bourbon wings",
+      "Loaded fries",
+      "Grilled broccoli"
+    ],
+    "source": "https://www.visitjackson.com/blog/black-owned-restaurants-in-jackson/ ; https://maps.roadtrippers.com/us/jackson-ms/food-drink/1693-red-zone-grill",
+    "note": "No website found, but only thin listings checked. Confirm before sending."
+  }
+]

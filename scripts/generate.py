@@ -12,6 +12,7 @@ import json
 import pathlib
 import re
 import sys
+import unicodedata
 import urllib.parse
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -57,7 +58,9 @@ def esc(s):
 
 
 def slugify(s):
-    return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
+    s = re.sub(r"['’]", "", s.lower())
+    return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
 
 
 def tel(phone):
@@ -139,17 +142,26 @@ def build_site(b, theme):
     return out
 
 
+def plural(label):
+    label = label.lower()
+    if label.endswith("y"):
+        return label[:-1] + "ies"
+    if label.endswith("s"):
+        return label + " businesses"
+    return label + "s"
+
+
 def build_email(b, theme, cfg, preview_url):
     sender = cfg["sender"]
     subject = f'I made a free website preview for {b["name"]}'
     greeting = f'Hi {b["owner"]},' if b.get("owner") else f'Hi {b["name"]} team,'
     body = f"""{greeting}
 
-I came across {b["name"]} while looking at {theme["label"].lower()}s in {b["city"]}{(" and saw " + b["hook"]) if b.get("hook") else ""}. I noticed you don't have a website yet, so I put together a free preview of what one could look like:
+I came across {b["name"]} while looking at {plural(theme["label"])} in {b["city"]}{(" and saw " + b["hook"]) if b.get("hook") else ""}. I noticed you don't have a website yet, so I put together a free preview of what one could look like:
 
 {preview_url}
 
-It already has your services, hours, phone number and a map, and it works on phones. Customers who search for you on Google could find all of this in one place.
+It already has your {"menu" if theme["label"] in ("Restaurant","Café","Bakery") else "services"}{", hours" if b.get("hours") else ""}, phone number and a map, and it works on phones. Customers who search for you on Google could find all of this in one place.
 
 If you like it, I can put it live on your own domain and make any changes you want, for {cfg["offer"]["price"]}. {cfg["offer"]["includes"]} If it's not for you, no problem at all. The preview is yours to keep either way.
 
@@ -188,9 +200,9 @@ def main():
         rows.append({
             "slug": slug, "name": b["name"], "category": theme["label"], "city": b["city"], "state": b["state"],
             "email": b.get("email", ""), "phone": b.get("phone", ""), "contact_channel": b.get("contact_channel", "email" if b.get("email") else "phone"),
-            "preview_url": preview_url, "subject": subject, "source": b.get("source", ""), "status": "draft",
+            "preview_url": preview_url, "subject": subject, "source": b.get("source", ""), "notes": b.get("note", ""), "status": "draft",
         })
-        cards.append(f'<a class="c" href="{slug}/"><b>{esc(b["name"])}</b><span>{esc(theme["label"])} · {esc(b["city"])}, {esc(b["state"])}</span></a>')
+        cards.append(f'<a class="c" href="{slug}/index.html"><b>{esc(b["name"])}</b><span>{esc(theme["label"])} · {esc(b["city"])}, {esc(b["state"])}</span></a>')
 
     with open(emails_dir / "outreach.csv", "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
