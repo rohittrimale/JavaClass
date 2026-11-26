@@ -1,0 +1,14 @@
+{
+  "preview_base_url": "https://YOUR-PREVIEW-HOST.example/sites",
+  "sender": {
+    "name": "YOUR NAME",
+    "title": "Web designer",
+    "email": "you@example.com",
+    "phone": "",
+    "postal_address": "YOUR MAILING ADDRESS (required by US anti-spam law for business email)"
+  },
+  "offer": {
+    "price": "a one-time $X",
+    "includes": "That covers setup, your domain for the first year, and small edits for 30 days."
+  }
+}
